@@ -6,6 +6,7 @@
     <title>Reformas TLP | Todo Lo Podemos</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="LogoReformasTLP2.png">
     
 <style>
         :root {
@@ -43,7 +44,11 @@
         }
 
         .logo-container img {
-            max-width: 250px;
+            width: 200px;           /* Ajusta el tamaño a tu gusto */
+            height: 200px;          /* Debe ser igual al ancho para un círculo perfecto */
+            object-fit: cover;      /* Evita que la imagen se estire */
+            border-radius: 50%;     /* Recorta la imagen en forma de círculo */
+            border: 3px solid var(--accent-blue); /* Opcional: añade un borde neón */
             filter: drop-shadow(0 0 15px var(--accent-blue));
             animation: float 4s ease-in-out infinite;
         }
